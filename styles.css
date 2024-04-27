@@ -32,7 +32,7 @@ nav{
 .nav-links{
     gap: 2rem;
     list-style: none;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 .nav-links, li, a{
@@ -44,4 +44,35 @@ a:hover{
     color: green;
     text-decoration: underline;
     text-underline-offset: 0.3rem;
+    /* text-decoration-color: rgb(181, 181, 181); */
+}
+
+.my-logo{
+    font-size: 1.5rem;
+    background-color: green;
+    color: white;
+    padding: 0.25rem;
+}
+
+.my-logo:hover{
+    cursor: default;
+}
+
+/* Hamberger-menu */
+.hamburger-nav{
+    display: none;
+}
+
+.hamburger-menu{
+    position: relative;
+    display: inline-block;
+}
+
+.hamburger-icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 24px;
+    width: 30px;
+    cursor: pointer;
 }
